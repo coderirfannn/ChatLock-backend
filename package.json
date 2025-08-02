@@ -1,0 +1,40 @@
+{
+  "name": "chattlock-version-2",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderirfannn/ChatLock-App-Backend.git"
+  },
+  "keywords": [
+    "chatlock",
+    "chatlock-social-media"
+  ],
+  "author": "Coder Irfan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderirfannn/ChatLock-App-Backend/issues"
+  },
+  "homepage": "https://github.com/coderirfannn/ChatLock-App-Backend#readme",
+  "description": "",
+  "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.9",
+    "@arcjet/node": "^1.0.0-beta.9",
+    "@clerk/express": "^1.7.0-canary.v20250606194225",
+    "cloudinary": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.16.0",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
