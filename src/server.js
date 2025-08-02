@@ -44,3 +44,8 @@ const startServer = async () => {
 }
 
 startServer();
+
+
+//export for versal
+
+export default app;
